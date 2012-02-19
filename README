@@ -11,7 +11,7 @@ square), -s X Y specifies a board of dimensions X by Y, and x-pos
 and y-pos denote the starting coordinates of the knight.
 
 Sample usage and output:
-$ ./knights_tour.py -c 0 0
+matt@ubuntu:~/Documents/CMSC_16200/projects$ ./knights_tour.py 0 0
 Starting board:
  K  [ ] [ ] [ ] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
@@ -42,16 +42,48 @@ Moving to (4, 0)
 [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
 
-Moving to (6, 1)
-[X] [ ] [ ] [ ] [X] [ ] [ ] [ ]
-[ ] [ ] [X] [ ] [ ] [ ]  K  [ ]
-[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
-[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
-[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
-[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
-[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
-[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
-
+...
 [many boards later]
+...
 
+Moving to (6, 4)
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [ ] [X] [X] [X]
+[X] [X] [ ] [X] [X] [X]  K  [X]
+[X] [X] [X] [X] [ ] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
 
+Moving to (4, 5)
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [ ] [X] [X] [X]
+[X] [X] [ ] [X] [X] [X] [X] [X]
+[X] [X] [X] [X]  K  [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+
+Moving to (2, 4)
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [ ] [X] [X] [X]
+[X] [X]  K  [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+
+Moving to (4, 3)
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X]  K  [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+[X] [X] [X] [X] [X] [X] [X] [X]
+
+matt@ubuntu:~/Documents/CMSC_16200/projects$

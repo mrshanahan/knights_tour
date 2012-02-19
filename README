@@ -1,0 +1,57 @@
+knights_tour.py
+Author: Matt Shanahan
+-------------------------------------------------------------------
+So far, the script will find a single path - open or closed, on
+whatever-sized board - and print it out to the user, step by step.
+
+Usage: python knights_tour.py [-c] [-s X Y] x-pos y-pos
+
+-c denotes a closed tour (i.e. that begins and ends on the same
+square), -s X Y specifies a board of dimensions X by Y, and x-pos
+and y-pos denote the starting coordinates of the knight.
+
+Sample usage and output:
+$ ./knights_tour.py -c 0 0
+Starting board:
+ K  [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+
+Moving to (2, 1)
+[X] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ]  K  [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+
+Moving to (4, 0)
+[X] [ ] [ ] [ ]  K  [ ] [ ] [ ]
+[ ] [ ] [X] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+
+Moving to (6, 1)
+[X] [ ] [ ] [ ] [X] [ ] [ ] [ ]
+[ ] [ ] [X] [ ] [ ] [ ]  K  [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+
+[many boards later]
+
+
